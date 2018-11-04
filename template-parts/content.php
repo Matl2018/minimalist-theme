@@ -24,6 +24,10 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
+	<?php
+	echo date("l jS \of F Y h:i:s A");
+	?>
+
 	<?php the_post_thumbnail(); ?>
 
 	<div class="entry-content">
